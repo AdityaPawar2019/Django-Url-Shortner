@@ -6,7 +6,7 @@ from .forms import ShortenerForm
 from django.http import HttpResponse,Http404,HttpResponseRedirect
 
 def home_view(request):
-    template = "shortner/home.html"
+    template = "home.html"
 
     context = {}
 

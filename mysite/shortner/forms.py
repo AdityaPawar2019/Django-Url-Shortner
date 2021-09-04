@@ -11,4 +11,4 @@ class ShortenerForm(ModelForm):
 
     class Meta:
         model = Shortner
-        fields = ('long_url')
+        fields = ('long_url',)
